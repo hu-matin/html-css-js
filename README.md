@@ -27,13 +27,9 @@
 
 <h2>Demo</h2>
 <p>Here is a quick preview of the project:</p>
-<img src="img.png" alt="Signup Form Screenshot" width="400">
+<img src="images/img.png" alt="Signup Form Screenshot" width="400"><br>
+<p><a href='./images/demo-vedio.mp4'>Click here for watching vedio.</a></p>
 <br>
-<video width="500" controls>
-  <source src="demo-video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 <h2>Download and Run the Project</h2>
 <p>You can clone the repository and run the project locally with the following command:</p>
 
