@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffffff;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.content label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+.content input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+.content small{
+    color: #ff0001;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+.content input:focus{
+    border-color: #5cb85c;
+}
+button{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #5cb85c;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background: #4cae4c;
+}
+button:active{
+    transform: scale(0.98);
+}
+@media (max-width: 500px){
+    #container{
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+/* github = https://github.com/hu-matin */
